@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS colors</title>
+   
+</head>
+<body id="bg">
+    <center>
+    <h1>Background Color using Radio button</h1>
+        <input type="radio" name="t"  onclick="document.getElementById('bg').style.background='red'" >Red
+        <input type="radio" name="t"  onclick="document.getElementById('bg').style.background='#00FFFF'" >Cyan
+        <input type="radio" name="t"  onclick="document.getElementById('bg').style.background='#DC143C'" >Crimson
+        <input type="radio" name="t"  onclick="document.getElementById('bg').style.background='#B8860B'" >DarkGoldenRod
+    </center>
+
+   
+    <center>
+        <h1>Background Color with buttons</h1>
+            <body>
+    <button type="button" onclick="myFunction()">Red</button>
+    <button type="button" onclick="goFunction()">Cyan</button>
+    <button type="button" onclick="koFunction()">Crimson</button>
+    <button type="button" onclick="moFunction()">DarkGoldenRod</button>
+</body>
+<script>
+        function myFunction() {
+  document.body.style.backgroundColor = "red";
+}
+function goFunction() {
+  document.body.style.backgroundColor = "#00FFFF";
+}
+function koFunction() {
+  document.body.style.backgroundColor = "#DC143C";
+}
+function moFunction() {
+  document.body.style.backgroundColor = "#B8860B";
+}
+
+    </script>
+        </center>
+</body>
+</html>
