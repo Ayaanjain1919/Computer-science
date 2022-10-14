@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<script>
+function bigImg(x) {
+  x.style.height = "200px";
+  x.style.width = "200px";
+}
+
+function normalImg(x) {
+  x.style.height = "62px";
+  x.style.width = "62px";
+}
+</script>
+</head>
+<body>
+<h1 onmouseover="style.color='cyan'" onmouseout="style.color='red'">Ayaans mouse events</h1>
+<p>Everyone's heard a "Yo Mama" joke by now, or even cracked one themselves. After all, these jokes were popular since the '90s -- but did you know they've been around for much longer than that? In fact, "Yo Mama" jokes date all the way back to before the Common Era.The first-known "Yo Mama" joke occurred in 3500 BCE.<p>
+
+</head>
+<body>
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://media.tenor.com/hCWdwl56lRgAAAAd/urmom-your-mom.gif" alt="Smiley" width="32" height="32">
+</body>
+</html>
