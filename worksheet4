@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Time Table</title>
+        <style>
+            h1{
+                font-family:Courier New;
+                text-align:center;
+                background-color:#6be7ad
+            }
+            .h{
+                font-family:Tahoma;
+                text-align:center;
+                font-style: bold;
+                font-size: 15px;
+            }
+            .para{
+                font-size:15px;
+                font-family:Tahoma;
+                text-align:center;
+                color:#000000
+            }
+            table, th, td {
+                border-bottom: 1px solid;
+                border-left: 1px solid;
+                border-right: 1px solid;
+                border-top: 1px solid;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            table{
+                width: 50%;
+            }
+            .colour{
+                background-color: #ffb700;
+            }
+            .colour2{
+                background-color: #2c8c00;
+            }
+            .colour3{
+                background-color: #ffff00;
+            }
+            td{
+                background-color: #ffffff;
+            }
+        </style>
+    </head>
+    <body bgcolor="FFFDD1">
+        <h1>TIMETABLE</h1>
+        <table align="center">
+            <tr>
+                <td colspan="6" class="colour">
+                    <p class="h"><b>Days</b></p>
+                </td>
+            </tr>
+
+            <tr>
+
+                <td rowspan="5" class="colour">
+                    <h2 class="h">Subjects</h2>
+                </td>
+                <td class="colour2">
+                    <p class="para">Monday</p>
+                </td>
+                <td class="colour2">
+                    <p class="para">Tuesday</p>
+                </td>
+                <td class="colour2">
+                    <p class="para">Wednesday</p>
+                </td>
+                <td class="colour2">
+                    <p class="para">Thursday</p>
+                </td>
+                <td class="colour2">
+                    <p class="para">Friday</p>
+                </td>  
+            </tr>
+            <tr>
+                <td>
+                    <p class="para">English</p>
+                </td>
+                <td>
+                    <p class="para">Maths</p>
+                </td>
+                <td>
+                    <p class="para">Science</p>
+                </td>
+                <td>
+                    <p class="para">Hindi</p>
+                </td>
+                <td>
+                    <p class="para">Spanish</p>
+                </td>  
+            </tr>
+            <tr>
+                <td>
+                    <p class="para">Maths</p>
+                </td>
+                <td>
+                    <p class="para">Hindi</p>
+                </td>
+                <td>
+                    <p class="para">Tamil</p>
+                </td>
+                <td>
+                    <p class="para">Social</p>
+                </td>
+                <td>
+                    <p class="para">ICT</p>
+                </td>  
+            </tr>
+            <tr>
+                <td colspan="6" class="colour3">
+                    <p class="para">LUNCH</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="para">Social</p>
+                </td>
+                <td>
+                    <p class="para">ICT</p>
+                </td>
+                <td>
+                    <p class="para">Science</p>
+                </td>
+                <td>
+                    <p class="para">Hindi</p>
+                </td>
+                <td>
+                    <p class="para">Maths</p>
+                </td>  
+            </tr>
+        </table>
+    </body>
+</html>
